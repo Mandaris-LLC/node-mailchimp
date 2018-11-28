@@ -283,7 +283,7 @@ Mailchimp.prototype.batchWait = function (batch_id, done, opts) {
 
   //default verbose to true
   if (opts.verbose !== false) {
-    opts.verbose = true;
+    opts.verbose = false;
   }
 
   var options = {
@@ -372,7 +372,7 @@ Mailchimp.prototype.batch = function (operations, done, opts) {
 
   //default verbose to true
   if (opts.verbose !== false) {
-    opts.verbose = true;
+    opts.verbose = false;
   }
 
 
